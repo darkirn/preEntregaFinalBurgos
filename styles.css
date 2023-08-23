@@ -1,0 +1,160 @@
+/* ... (otros estilos previos) ... */
+/* Estilos de los productos simulados */
+/* Reset de márgenes y relleno para el cuerpo de la página */
+/* Estilos para el fondo del body */
+/* body {
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+} */
+
+/* Estilos para el encabezado */
+/* header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+} */
+
+/* Estilos para el contenedor del carrito */
+/* #cart-container {
+    background-color: white;
+    padding: 1em;
+    margin-top: 1em;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+/* Estilos para las tarjetas de productos */
+/* .product-card {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+} */
+
+/* .product-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    max-width: 100%;
+} */
+
+/* Estilos para los ítems del carrito */
+/* .cart-item {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 0;
+} */
+
+/* Estilos para el fondo del body */
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Estilos para el contenedor del carrito */
+#cart-container {
+    background-color: white;
+    padding: 1em;
+    margin-top: 1em;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las tarjetas de productos */
+.product-card {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    width: 250px; /* Limita el ancho de la tarjeta */
+}
+
+.product-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    max-width: 100%;
+}
+
+/* Estilo para el botón de agregar al carrito */
+.add-to-cart {
+    background-color: #33aa33;
+    color: white;
+    border: none;
+    padding: 0.3em 0.6em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5em;
+}
+
+.add-to-cart:hover {
+    background-color: #259425;
+}
+
+/* Estilo para el botón de eliminar del carrito */
+.remove-from-cart {
+    background-color: #ff5858;
+    color: white;
+    border: none;
+    padding: 0.3em 0.6em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5em;
+}
+
+.remove-from-cart:hover {
+    background-color: #d43e3e;
+}
+
+/* Estilo para el botón de restar del carrito */
+.subtract-from-cart {
+    background-color: #aa3333;
+    color: white;
+    border: none;
+    padding: 0.3em 0.6em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5em;
+}
+
+.subtract-from-cart:hover {
+    background-color: #882828;
+}
+
+
+.product-card {
+    /* ... (otros estilos de tarjeta) */
+    width: calc(33.33% - 20px); /* Tamaño de cada tarjeta, teniendo en cuenta el margen */
+    margin: 0 10px 20px; /* Margen entre tarjetas */
+    display: inline-block; /* Para que se muestren en línea */
+    vertical-align: top; /* Alinear las tarjetas en la parte superior */
+    box-sizing: border-box;
+}
+
+/* Estilos para los bloques de tarjetas */
+.product-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px; /* Compensar el margen negativo de las tarjetas individuales */
+}

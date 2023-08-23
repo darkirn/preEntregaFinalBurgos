@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Camiseta",
+        "price": 20,
+        "image": "shirt.png"
+    },
+    {
+        "id": 2,
+        "name": "Pantalón",
+        "price": 40,
+        "image": "pants.png"
+    },
+    {
+        "id": 3,
+        "name": "Zapatos",
+        "price": 60,
+        "image": "shoes.png"
+    },
+    {
+        "id": 4,
+        "name": "Sombrero",
+        "price": 15,
+        "image": "hat.png"
+    },
+    {
+        "id": 5,
+        "name": "Bufanda",
+        "price": 25,
+        "image": "scarf.png"
+    }
+]
